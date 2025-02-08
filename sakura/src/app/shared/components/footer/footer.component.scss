@@ -1,0 +1,21 @@
+footer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px;
+    background-color: rgb(16, 26, 43);
+
+    >div {
+        >img {
+            height: 30px;
+            width: 200px;
+        }
+
+        >a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

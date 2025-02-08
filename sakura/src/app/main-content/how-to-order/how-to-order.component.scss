@@ -1,0 +1,40 @@
+h1 {
+    color: darkred;
+    margin-top: 3%;
+    font-size: 42px;
+}
+
+section {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-bottom: 3%;
+    >div {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 7%;
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            >img {
+                height: 64px;
+                width: 64px;
+            }
+
+            >p {
+                font-size: 28px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
