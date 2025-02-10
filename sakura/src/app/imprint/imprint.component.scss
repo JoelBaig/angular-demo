@@ -1,5 +1,13 @@
 section {
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background-color: aqua;
+    padding: 16px;
+}
+
+p {
+    padding: 8px;
+}
+
+h1,h2,h3,h4 {
+    padding: 8px;
 }
