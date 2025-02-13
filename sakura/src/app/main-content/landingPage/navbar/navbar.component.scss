@@ -1,18 +1,21 @@
+@import './../../../../mixin.scss';
+
 nav {
     width: 100%;
     padding: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include dFlex($jc: space-between);
+
     >img {
         width: 64px;
         height: 64px;
     }
+
     >div {
         display: flex;
         position: absolute;
         right: 32px;
         top: 45px;
+
         >a {
             &:hover {
                 color: red;
@@ -23,7 +26,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: white;
+    @include fontColor();
     padding: 12px;
     cursor: pointer;
 }
@@ -33,17 +36,20 @@ a {
     align-items: center;
     border-radius: 10px;
     border-color: white;
-    border-style:groove;
+    border-style: groove;
     background-color: darkred;
     padding-left: 8px;
     margin-left: 11px;
+
     >img {
         width: 32px;
         height: 32px;
     }
+
     >a {
         padding: 8px;
         cursor: pointer;
+
         &:hover {
             color: red;
         }

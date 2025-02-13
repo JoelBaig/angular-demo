@@ -1,0 +1,9 @@
+@mixin fontColor() {
+    color: white;
+}
+
+@mixin dFlex($jc: center, $ai: center) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
