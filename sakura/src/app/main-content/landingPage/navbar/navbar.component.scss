@@ -25,6 +25,7 @@ a {
     text-decoration: none;
     color: white;
     padding: 12px;
+    cursor: pointer;
 }
 
 .phone-btn {
@@ -33,7 +34,7 @@ a {
     border-radius: 10px;
     border-color: white;
     border-style:groove;
-    background-color: red;
+    background-color: darkred;
     padding-left: 8px;
     margin-left: 11px;
     >img {
@@ -42,8 +43,9 @@ a {
     }
     >a {
         padding: 8px;
+        cursor: pointer;
         &:hover {
-            color: black;
+            color: red;
         }
     }
 }
