@@ -2,8 +2,9 @@
     color: white;
 }
 
-@mixin dFlex($jc: center, $ai: center) {
-    display: flex;
+@mixin dFlex($d: flex, $jc: center, $ai: center, $fd: none) {
+    display: $d;
     justify-content: $jc;
     align-items: $ai;
+    flex-direction: $fd;
 }
